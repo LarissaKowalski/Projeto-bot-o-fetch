@@ -1,0 +1,45 @@
+# Botão Fetch - Projeto React
+
+Este é um pequeno projeto React que implementa um botão para buscar informações sobre a data e hora atual da API [World Time API](https://worldtimeapi.org/).
+
+## Funcionalidades
+- Busca a data e hora atual de São Paulo ao clicar no botão.
+- Exibe o dia da semana e a hora formatada em português.
+- Mensagem de erro caso a requisição falhe.
+
+## Como Rodar o Projeto
+
+1. Certifique-se de ter o Node.js instalado.
+2. Clone este repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+3. Acesse a pasta do projeto:
+   ```sh
+   cd meu-projeto-react
+   ```
+4. Instale as dependências:
+   ```sh
+   npm install
+   ```
+5. Inicie o servidor de desenvolvimento:
+   ```sh
+   npm start
+   ```
+
+## Tecnologias Utilizadas
+- React
+- JavaScript (ES6+)
+- Fetch API
+- HTML & CSS (inline styles para simplicidade)
+
+## Estrutura do Projeto
+```
+meu-projeto-react/
+|-- src/
+|   |-- components/
+|   |   |-- FetchButton.js (Componente principal)
+|   |-- App.js (Arquivo principal do React)
+|-- public/
+|-- package.json
+```
